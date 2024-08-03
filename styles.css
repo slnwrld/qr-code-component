@@ -17,32 +17,38 @@
 body{
   background-color: var(--clr-slate300);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card{
- margin: auto;
- width: 450px;
+ /* margin: 20px auto; */
+ width: 430px;
  height: 630px;
  background-color: var(--clr-white);
  border-radius: 25px;
- padding: 30px;
+ padding-top: 20px;
  text-align: center;
 }
 
 .qr-code{
-  height: 400px;
-  width: 400px;
+  height: 390px;
   border-radius: 25px;
 }
 
 h1{
   font-size: 30px;
   padding: 20px 0px;
+  color: var(--clr-slate900);
+  font-weight: 700;
 }
 
 p{
   font-size: 15px;
   font-weight: 400;
+  color: var(--clr-slate500);
+  padding-bottom: 60px;
 }
 
 
